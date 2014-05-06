@@ -1,0 +1,10 @@
+{
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+	"ignored_packages":
+	[
+		"Package Syncing",
+		"Vintage",
+		"PlainTasks"
+	],
+	"word_wrap": "enabled"
+}

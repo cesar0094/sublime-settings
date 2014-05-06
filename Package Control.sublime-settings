@@ -1,0 +1,29 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"BeautifyRuby",
+		"Chain of Command",
+		"ColorPick",
+		"ColorPicker",
+		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
+		"Emmet",
+		"GitGutter",
+		"GoSublime",
+		"nginx",
+		"Package Control",
+		"PlainTasks",
+		"RailsCasts Colour Scheme",
+		"Ruby Blue Color Scheme",
+		"Ruby Coverage",
+		"RubyFormat",
+		"ScopeHunter",
+		"ScopeStatus",
+		"SplitScreen",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeXiki",
+		"Tomorrow Color Schemes"
+	]
+}

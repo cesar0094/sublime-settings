@@ -1,0 +1,13 @@
+{
+    /*
+        Selects the way the lines with errors or warnings are marked; "outline" draws
+        outline boxes around the lines, "fill" fills the lines with the outline color,
+        and "none" (default) disables all outline styles.
+    */
+    "sublimelinter_mark_style": "outline",
+    "sublimelinter_executable_map":
+    {
+        "ruby": "/Users/cesar/.rbenv/versions/1.9.2-p290/bin/ruby"
+    },
+    "sublimelinter": false
+}
