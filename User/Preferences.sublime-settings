@@ -1,16 +1,15 @@
 {
+	"caret_style": "wide",
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+	"font_size": 12.0,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Package Syncing",
 		"Vintage",
-		"PlainTasks"
+		"PlainTasks",
+		"Colorcoder"
 	],
-    // Valid values are "smooth", "phase", "blink", "wide" and "solid".
-    "caret_style": "wide",
-
-    // If enabled, will highlight any line with a caret
-    "highlight_line": true,
-
+	"save_on_focus_lost": true,
 	"word_wrap": "enabled"
 }

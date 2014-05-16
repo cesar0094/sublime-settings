@@ -15,5 +15,6 @@
             ]
         }
     },
+    { "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
     { "keys": ["super+e"], "command": "find_next"}
 ]
