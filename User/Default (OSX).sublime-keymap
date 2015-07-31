@@ -15,7 +15,26 @@
             ]
         }
     },
-    { "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    // select tabs group
+    { "keys": ["super+1"], "command": "focus_group", "args": { "group": 0 } },
+    { "keys": ["super+2"], "command": "focus_group", "args": { "group": 1 } },
+    { "keys": ["super+3"], "command": "focus_group", "args": { "group": 2 } },
+
+    // swap lines
+    { "keys": ["ctrl+shift+up"], "command": "swap_line_up" },
+    { "keys": ["ctrl+shift+down"], "command": "swap_line_down" },
+    // go to line:
+    { "keys": ["super+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    // next finding result
     { "keys": ["super+e"], "command": "find_next"},
-    { "keys": ["super+j"], "command": "toggle_side_bar" }
+    { "keys": ["super+j"], "command": "toggle_side_bar" },
+    { "keys": ["super+shift+a"],
+        "command": "insert_snippet",
+        "args": {
+        "contents": "console.log(${1:}$SELECTION);${0}"
+    }, "context": [
+        { "key": "selector", "operator": "equal", "operand": "source.js", "match_all": true } ]
+    },
+    { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
+    { "keys": ["super+shift+e"], "command": "go_to_symbol_in_project_now" }
 ]

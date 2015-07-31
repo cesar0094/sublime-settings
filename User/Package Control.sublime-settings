@@ -1,4 +1,7 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -11,11 +14,15 @@
 		"Dockerfile Syntax Highlighting",
 		"Emmet",
 		"GitGutter",
+		"GitGutter-Edge",
 		"GoSublime",
+		"Indent XML",
+		"JSON Reindent",
 		"nginx",
 		"Package Control",
 		"Package Syncing",
 		"PlainTasks",
+		"Pretty JSON",
 		"RailsCasts Colour Scheme",
 		"Ruby Blue Color Scheme",
 		"RubyFormat",
