@@ -186,8 +186,3 @@ if [ -f /Users/cesar/repos/google-cloud-sdk/completion.zsh.inc ]; then
 fi
 alias k="kubectl"
 alias ks="kubectl --namespace=kube-system"
-
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
-export WTF_OWM_API_KEY=76a4add1ea2c353cc7d90a8c687d0f50
