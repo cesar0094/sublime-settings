@@ -1,17 +1,53 @@
 {
+	"auto_complete": false,
 	"caret_style": "wide",
 	"color_scheme": "Packages/User/Tomorrow-Night (SL).tmTheme",
-	"font_size": 13.5,
+	"file_exclude_patterns":
+	[
+		"*.aux",
+		"*.pyc",
+		"*.sty",
+		"*.toc",
+		"*.dtx",
+		"*.mp3",
+		"*.blg",
+		"*.glo",
+		"*.idx",
+		"*.cls",
+		"*.eps",
+		"*.dvi",
+		"*.ins",
+		"*.pdf",
+		"*.bst",
+		"*.bbl"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"vendor",
+		"services/spicehouse/tmp",
+		"__pycache__"
+	],
+	"font_face": "Fira Code",
+	"font_options":
+	[
+	],
+	"font_size": 14,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Package Syncing",
 		"Colorcoder",
-		"PlainTasks"
+		"Package Syncing",
+		"RubyFormat",
+		"ScopeStatus",
+		"SplitScreen",
+		"Vintage"
 	],
 	"save_on_focus_lost": true,
 	"show_tab_close_buttons": false,
+	"theme": "Default.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "enabled"
 }

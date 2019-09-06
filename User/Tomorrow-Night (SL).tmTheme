@@ -27,6 +27,39 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Builtin Function</string>
+			<key>scope</key>
+			<string>support.function.builtin.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#63B489</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function Arguments</string>
+			<key>scope</key>
+			<string>meta.function-call.arguments.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D3D3D3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>List Brackets</string>
+			<key>scope</key>
+			<string>punctuation.definition.list.begin.python, punctuation.definition.list.end.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6E90B2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
 			<string>comment, string.quoted.double.block.python</string>

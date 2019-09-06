@@ -16,9 +16,9 @@
         }
     },
     // select tabs group
-    { "keys": ["super+1"], "command": "focus_group", "args": { "group": 0 } },
-    { "keys": ["super+2"], "command": "focus_group", "args": { "group": 1 } },
-    { "keys": ["super+3"], "command": "focus_group", "args": { "group": 2 } },
+    { "keys": ["alt+1"], "command": "focus_group", "args": { "group": 0 } },
+    { "keys": ["alt+2"], "command": "focus_group", "args": { "group": 1 } },
+    { "keys": ["alt+3"], "command": "focus_group", "args": { "group": 2 } },
 
     // swap lines
     { "keys": ["ctrl+shift+up"], "command": "swap_line_up" },
@@ -36,5 +36,7 @@
         { "key": "selector", "operator": "equal", "operand": "source.js", "match_all": true } ]
     },
     { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
-    { "keys": ["super+shift+e"], "command": "go_to_symbol_in_project_now" }
+    { "keys": ["super+shift+e"], "command": "go_to_symbol_in_project_now" },
+    { "keys": ["alt+space"], "command": "auto_complete" },
+    { "keys": ["super+9"], "command": "last_view" }
 ]

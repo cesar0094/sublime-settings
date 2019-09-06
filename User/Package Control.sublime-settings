@@ -1,37 +1,35 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"RubyFormat",
+		"ScopeStatus",
+		"SplitScreen"
 	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
-		"BeautifyRuby",
+		"AutoWrap",
 		"Chain of Command",
+		"CoffeeAngular Syntax",
 		"Colorcoder",
-		"ColorPick",
 		"ColorPicker",
-		"DocBlockr",
 		"Dockerfile Syntax Highlighting",
-		"Emmet",
 		"GitGutter",
-		"GitGutter-Edge",
 		"GoSublime",
+		"Gradle_Language",
 		"Indent XML",
 		"JSON Reindent",
 		"nginx",
 		"Package Control",
 		"Package Syncing",
-		"PlainTasks",
+		"PackageResourceViewer",
 		"Pretty JSON",
-		"RailsCasts Colour Scheme",
 		"Ruby Blue Color Scheme",
 		"RubyFormat",
-		"ScopeHunter",
 		"ScopeStatus",
+		"SingleTrailingNewLine",
 		"SplitScreen",
-		"SublimeCodeIntel",
-		"SublimeLinter",
-		"SublimeXiki",
 		"Tomorrow Color Schemes"
 	]
 }

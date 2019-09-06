@@ -1,5 +1,9 @@
 {
-	"ann": "a14.02.25-1",
-	"install_version": "r14.12.06-1",
-	"version": "r14.12.06-1"
+	"9o.hist./Users/cesar/repos/golang/src/github.com/veoo/spice/services/longnumber":
+	[
+		"go build longnumber.go"
+	],
+	"ann": "a18.07.31-1",
+	"install_version": "r18.07.22-1",
+	"version": "r18.07.22-1"
 }

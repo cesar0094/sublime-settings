@@ -1,6 +1,6 @@
 {
 
-    "env": { "GOPATH" : "$HOME/repos/go_space"},
+    "env": { "GOPATH" : "$HOME/repos/golang"},
     // Whether or not gscomplete(gocode) is enabled
     "gscomplete_enabled": false,
 
@@ -18,7 +18,29 @@
     "9o_color_scheme": "",
 
     // Whether or not gslint is enabled
-    "gslint_enabled": false
+    "gslint_enabled": false,
 
+    // "fmt_cmd": ["goimports"],
+    // "fmt_cmd": ["go fmt"],
+
+    // whether or not MarGo may automatically run `go install` for packages that are missing
+    // when you `import`, or `autocomplete` them
+    "autoinst": false,
+
+    // Whether or not comp lint is enabled (this might conflict with gslint)
+    "comp_lint_enabled": false,
+
+    "comp_lint_commands": [
+        // {"cmd": ["go", "install"]},
+        // {"cmd": ["go", "vet"]},
+        // {"cmd": ["golint *.go | grep -v 'should have comment or be unexported'"], "shell": true}
+    ],
+
+    "on_save": [
+        // run comp-lint when you save,
+        // naturally, you can also bind this command `gs_comp_lint`
+        // to a key binding if you want
+        // {"cmd": "gs_comp_lint"}
+    ]
 
 }
