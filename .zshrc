@@ -190,6 +190,4 @@ alias ks="kubectl --namespace=kube-system"
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
-export HOMEBREW_GITHUB_API_TOKEN="abc5eb032681fe14a5d2faed30d8df7ce38ab762"
-
 export WTF_OWM_API_KEY=76a4add1ea2c353cc7d90a8c687d0f50
