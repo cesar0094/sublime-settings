@@ -171,6 +171,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Self Python</string>
+			<key>scope</key>
+			<string>source.python meta.qualified-name.python variable.language.python</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#61884e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Invalid</string>
 			<key>scope</key>
 			<string>invalid</string>
