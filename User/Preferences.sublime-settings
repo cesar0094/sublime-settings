@@ -26,9 +26,14 @@
 		".svn",
 		".git",
 		".hg",
+		".tox",
+		".mypy_cache",
+		".ipynb_checkpoints",
 		"vendor",
 		"services/spicehouse/tmp",
-		"__pycache__"
+		"__pycache__",
+		"*.egg-info",
+		".eggs"
 	],
 	"font_face": "Fira Code",
 	"font_options":
@@ -46,6 +51,7 @@
 		"Vintage"
 	],
 	"save_on_focus_lost": true,
+	"scroll_past_end": false,
 	"show_tab_close_buttons": false,
 	"theme": "Default.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
