@@ -1,3 +1,7 @@
 {
-	"translate_tabs_to_spaces": true
+    "translate_tabs_to_spaces": true,
+    "tab_size": 4,
+
+    // Columns in which to display vertical rulers
+    "rulers": [79]
 }
