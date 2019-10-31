@@ -1,0 +1,7 @@
+{
+	"yapf_command": "/home/cesar/miniconda3/bin/yapf",
+	// run yapf before saving document
+	"on_save": false,
+
+	"config": {"BLANK_LINE_BEFORE_NESTED_CLASS_OR_DEF": true}
+}
