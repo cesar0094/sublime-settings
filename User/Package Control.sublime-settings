@@ -2,34 +2,29 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"RubyFormat",
-		"ScopeStatus",
-		"SplitScreen"
 	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"AutoDocstring",
 		"AutoWrap",
 		"Chain of Command",
-		"CoffeeAngular Syntax",
 		"Colorcoder",
 		"ColorPicker",
 		"Dockerfile Syntax Highlighting",
 		"GitGutter",
 		"GoSublime",
-		"Gradle_Language",
 		"Indent XML",
 		"JSON Reindent",
-		"nginx",
+		"Markdown Extended",
 		"Package Control",
 		"Package Syncing",
 		"PackageResourceViewer",
 		"Pretty JSON",
-		"Ruby Blue Color Scheme",
-		"RubyFormat",
-		"ScopeStatus",
+		"PyYapf Python Formatter",
 		"SingleTrailingNewLine",
-		"SplitScreen",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
 		"Tomorrow Color Schemes"
 	]
 }
