@@ -1,2 +1,20 @@
 [
+    // menus
+    { "keys": ["ctrl+j"], "command": "toggle_side_bar" },
+
+    // finding
+    { "keys": ["ctrl+e"], "command": "find_next" },
+    { "keys": ["alt+shift+r"], "command": "goto_symbol_in_project" },
+    { "keys": ["alt+9"], "command": "last_view" },
+
+    // cursor movement
+    { "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    { "keys": ["ctrl+up"], "command": "move_to", "args": {"to": "bof", "extend": false} },
+    { "keys": ["ctrl+down"], "command": "move_to", "args": {"to": "eof", "extend": false} },
+
+    // text modification
+    { "keys": ["alt+shift+c"], "command": "title_case" },
+
+    // formatting
+    { "keys": ["ctrl+alt+s"], "command": "yapf_selection" }
 ]
