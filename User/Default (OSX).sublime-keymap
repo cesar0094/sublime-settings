@@ -1,5 +1,70 @@
 [
+    // menus
+    { "keys": ["super+j"], "command": "toggle_side_bar" },
+
+    // finding
+    { "keys": ["super+e"], "command": "find_next"},
+    { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
+    { "keys": ["super+shift+e"], "command": "go_to_symbol_in_project_now" },
+
+    // cursor movement
+    { "keys": ["super+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+
+
+
+    // text modification
     { "keys": ["super+shift+c"], "command": "title_case" },
+
+    // formatting
+    { "keys": ["ctrl+super+s"], "command": "yapf_selection" },
+
+    // auto-complete
+    { "keys": ["alt+space"], "command": "auto_complete" },
+
+    // go to last tab
+    { "keys": ["super+9"], "command": "last_view" },
+
+    // ==== Auto-pair backticks  ====
+    { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$0`"}, "context":
+      [
+        { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+        { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+        { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|>|$)", "match_all": true },
+        { "key": "preceding_text", "operator": "not_regex_contains", "operand": "[`a-zA-Z0-9_]$", "match_all": true },
+        { "key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.single", "match_all": true }
+      ]
+    },
+    { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`${0:$SELECTION}`"}, "context":
+      [
+        { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+        { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+      ]
+    },
+    { "keys": ["`"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
+      [
+        { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+        { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+        { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true }
+      ]
+    },
+    { "keys": ["backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Left Right.sublime-macro"}, "context":
+      [
+        { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+        { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+        { "key": "preceding_text", "operator": "regex_contains", "operand": "`$", "match_all": true },
+        { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true }
+      ]
+    },
+    // =======================
+
+    // select tabs group
+    { "keys": ["alt+1"], "command": "focus_group", "args": { "group": 0 } },
+    { "keys": ["alt+2"], "command": "focus_group", "args": { "group": 1 } },
+    { "keys": ["alt+3"], "command": "focus_group", "args": { "group": 2 } },
+
+    // swap lines
+    { "keys": ["ctrl+shift+up"], "command": "swap_line_up" },
+    { "keys": ["ctrl+shift+down"], "command": "swap_line_down" },
 
     { "keys": ["super+alt+c"], "command": "chain",
         "args" : {
@@ -14,29 +79,5 @@
                 }]
             ]
         }
-    },
-    // select tabs group
-    { "keys": ["alt+1"], "command": "focus_group", "args": { "group": 0 } },
-    { "keys": ["alt+2"], "command": "focus_group", "args": { "group": 1 } },
-    { "keys": ["alt+3"], "command": "focus_group", "args": { "group": 2 } },
-
-    // swap lines
-    { "keys": ["ctrl+shift+up"], "command": "swap_line_up" },
-    { "keys": ["ctrl+shift+down"], "command": "swap_line_down" },
-    // go to line:
-    { "keys": ["super+;"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
-    // next finding result
-    { "keys": ["super+e"], "command": "find_next"},
-    { "keys": ["super+j"], "command": "toggle_side_bar" },
-    { "keys": ["super+shift+a"],
-        "command": "insert_snippet",
-        "args": {
-        "contents": "console.log(${1:}$SELECTION);${0}"
-    }, "context": [
-        { "key": "selector", "operator": "equal", "operand": "source.js", "match_all": true } ]
-    },
-    { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
-    { "keys": ["super+shift+e"], "command": "go_to_symbol_in_project_now" },
-    { "keys": ["alt+space"], "command": "auto_complete" },
-    { "keys": ["super+9"], "command": "last_view" }
+    }
 ]
