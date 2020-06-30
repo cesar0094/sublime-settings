@@ -3,5 +3,8 @@
 	// run yapf before saving document
 	"on_save": false,
 
-	"config": {"BLANK_LINE_BEFORE_NESTED_CLASS_OR_DEF": true}
+	"config": {
+		"BLANK_LINE_BEFORE_NESTED_CLASS_OR_DEF": true,
+		"SPLIT_ALL_TOP_LEVEL_COMMA_SEPARATED_VALUES": true
+	}
 }
