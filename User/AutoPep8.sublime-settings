@@ -1,0 +1,4 @@
+{
+	// Specifies whether or not format files once they saved.
+    "format_on_save": true
+}
