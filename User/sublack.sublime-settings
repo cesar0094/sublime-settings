@@ -1,0 +1,6 @@
+
+{
+	"black_command": "/Users/cesar/miniconda3/envs/black/bin/black",
+
+	"black_on_save": true,
+}
