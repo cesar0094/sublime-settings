@@ -19,6 +19,7 @@
 		"*.ins",
 		"*.pdf",
 		"*.bst",
+		"*.DS_Store",
 		"*.bbl"
 	],
 	"folder_exclude_patterns":
@@ -29,18 +30,22 @@
 		".tox",
 		".mypy_cache",
 		".ipynb_checkpoints",
+		".pytest_cache",
 		"vendor",
 		"services/spicehouse/tmp",
 		"__pycache__",
 		"*.egg-info",
-		".eggs"
+		".eggs",
+		"public",
+		"build",
+		"output"
 	],
 	"font_face": "Fira Code",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 14,
+	"font_size": 15,
 	"highlight_line": true,
 	"ignored_packages":
 	[
