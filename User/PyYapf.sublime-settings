@@ -4,7 +4,7 @@
 	"on_save": false,
 
 	"config": {
-		"BLANK_LINE_BEFORE_NESTED_CLASS_OR_DEF": true,
+		"BLANK_LINE_BEFORE_NESTED_CLASS_OR_DEF": false,
 		"SPLIT_ALL_TOP_LEVEL_COMMA_SEPARATED_VALUES": true
 	}
 }
