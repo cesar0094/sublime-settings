@@ -7,7 +7,6 @@
 	[
 		"AdvancedNewFile",
 		"AutoDocstring",
-		"AutoPEP8",
 		"AutoWrap",
 		"Chain of Command",
 		"Colorcoder",
@@ -16,6 +15,7 @@
 		"GitGutter",
 		"GoSublime",
 		"Indent XML",
+		"INI",
 		"JSON Reindent",
 		"Markdown Extended",
 		"MarkdownEditing",
@@ -23,10 +23,11 @@
 		"Package Syncing",
 		"PackageResourceViewer",
 		"Pretty JSON",
-		"PyYapf Python Formatter",
 		"SingleTrailingNewLine",
+		"sublack",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
+		"TOML",
 		"Tomorrow Color Schemes"
 	]
 }
